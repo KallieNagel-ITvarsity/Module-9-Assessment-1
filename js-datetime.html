@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href="style.css" rel="stylesheet" type="text/css">
+    </head>
+    <body>
+        <p id="output"></p>
+        <p id="output2"></p>
+        
+        <script>
+            var dt = new Date();
+            document.getElementById("output").innerHTML = dt;
+            
+            dt.setHours(11);
+            document.getElementById("output2").innerHTML = dt;
+        </script>
+    </body>
+</html>
